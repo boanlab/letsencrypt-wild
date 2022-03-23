@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ ! -z $1 ]; then
+if [ -z $1 ]; then
     echo "Usage: $0 [domain name]"
     exit
 fi
